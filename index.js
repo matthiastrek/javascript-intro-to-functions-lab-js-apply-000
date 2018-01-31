@@ -15,9 +15,9 @@ function logWhisper(x){
 }
 
 function sayHiToGrandma(x){
-  if (x.toUpperCase() === true){
-    return 'YES INDEED!'
-  } else if (x.toLowerCase() === true){
+  if (x === x.toUpperCase()){
+    console.log('YES INDEED!')
+  } else if (x ===x.toLowerCase()){
     console.log('I can\'t hear you!')
   } else if (x === 'I love you, Grandma.'){
     console.log('I love you, too.')
